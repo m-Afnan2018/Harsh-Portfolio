@@ -10,7 +10,7 @@ function Cursor() {
       const hoverAnim = this.querySelector('.hover-anim');
       const { offsetX: x, offsetY: y } = e;
       const { offsetWidth: width, offsetHeight: height } = this;
-      const move = 25;
+      const move = 250;
       const xMove = (x / width) * (move * 2) - move;
       const yMove = (y / height) * (move * 2) - move;
 
