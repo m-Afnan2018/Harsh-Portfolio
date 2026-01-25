@@ -21,10 +21,9 @@ function Cursor() {
 
     const editCursor = (e) => {
       const { clientX: x, clientY: y } = e;
-      cursor.style.left = x + 'px';
-      cursor.style.top = y + 'px';
-      innerCursor.style.left = x + 'px';
-      innerCursor.style.top = y + 'px';
+      cursor.style.transform = (`translate(${x}px, ${y}px)`)
+      // cursor.style.left = x + 'px';
+      // cursor.style.top = y + 'px';
     };
     link.forEach((b) => b.addEventListener('mousemove', animateit));
     link.forEach((b) => b.addEventListener('mouseleave', animateit));
@@ -41,7 +40,6 @@ function Cursor() {
   }, []);
 
   return <div className="cursor">
-    <div className='inner-cursor'></div>
   </div>;
 }
 
