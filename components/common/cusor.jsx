@@ -5,12 +5,13 @@ function Cursor() {
   useEffect(() => {
     const link = document.querySelectorAll('.hover-this');
     const cursor = document.querySelector('.cursor');
+    const innerCursor = document.querySelector('.inner-cursor');
 
     const animateit = function (e) {
       const hoverAnim = this.querySelector('.hover-anim');
       const { offsetX: x, offsetY: y } = e;
       const { offsetWidth: width, offsetHeight: height } = this;
-      const move = 250;
+      const move = 25;
       const xMove = (x / width) * (move * 2) - move;
       const yMove = (y / height) * (move * 2) - move;
 
@@ -22,6 +23,8 @@ function Cursor() {
       const { clientX: x, clientY: y } = e;
       cursor.style.left = x + 'px';
       cursor.style.top = y + 'px';
+      innerCursor.style.left = x + 'px';
+      innerCursor.style.top = y + 'px';
     };
     link.forEach((b) => b.addEventListener('mousemove', animateit));
     link.forEach((b) => b.addEventListener('mouseleave', animateit));
@@ -37,7 +40,9 @@ function Cursor() {
     });
   }, []);
 
-  return <div className="cursor"></div>;
+  return <div className="cursor">
+    <div className='inner-cursor'></div>
+  </div>;
 }
 
 export default Cursor;
