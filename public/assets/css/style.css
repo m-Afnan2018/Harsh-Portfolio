@@ -956,7 +956,7 @@ figure {
   pointer-events: none;
   position: fixed;
   padding: 1.5rem;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 50%;
   mix-blend-mode: difference;
   -webkit-transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
@@ -977,7 +977,7 @@ figure {
 .inner-cursor {
   pointer-events: none;
   position: fixed;
-  padding: 0.3rem;
+  padding: 0.2rem;
   background-color: #fff;
   border-radius: 50%;
   mix-blend-mode: difference;
@@ -988,6 +988,12 @@ figure {
   transition: left 0.4s, top 0.4s, transform 0.3s ease, opacity 0.4s ease,
     -webkit-transform 0.3s ease;
   z-index: 99999;
+
+  transition: transform 0.4s ease-out, border-color 0.15s ease-out;
+  border-width: 2px;
+  visibility: visible;
+  border-color: rgb(153, 153, 153);
+  border-style: nones;
 }
 
 .cursor-active {

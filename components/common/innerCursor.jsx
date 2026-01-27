@@ -1,11 +1,10 @@
 'use client';
 import React, { useEffect } from 'react';
 
-function Cursor() {
+function InnerCursor() {
   useEffect(() => {
     const link = document.querySelectorAll('.hover-this');
-    const cursor = document.querySelector('.cursor');
-    const innerCursor = document.querySelector('.inner-cursor');
+    const cursor = document.querySelector('.inner-cursor');
 
     const animateit = function (e) {
       const hoverAnim = this.querySelector('.hover-anim');
@@ -21,7 +20,7 @@ function Cursor() {
 
     const editCursor = (e) => {
       const { clientX: x, clientY: y } = e;
-      cursor.style.transform = (`translate(${x-23}px, ${y-23}px)`)
+      cursor.style.transform = (`translate(${x}px, ${y}px)`)
       // cursor.style.left = x + 'px';
       // cursor.style.top = y + 'px';
     };
@@ -39,8 +38,8 @@ function Cursor() {
     });
   }, []);
 
-  return <div className="cursor">
+  return <div className="inner-cursor">
   </div>;
 }
 
-export default Cursor;
+export default InnerCursor;

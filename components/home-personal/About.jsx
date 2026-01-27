@@ -31,10 +31,9 @@ function About() {
                 <h4 className="mb-30">
                   I&apos;m{' '}
                   <span className="fw-200">
-                    Creative Director and UI-UX Designer
+                    creative Graphic Designer
                   </span>{' '}
-                  from Sydney, Australia, working in web development and print
-                  media.
+                  with 6+ months of professional in-house experience and 1 year of freelance work, skilled in designing impactful social media creatives, marketing visuals, and website graphics.
                 </h4>
                 <p>
                   I enjoy turning complex problems into simple, beautiful and

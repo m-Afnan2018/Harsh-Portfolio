@@ -18,6 +18,7 @@ import About from '@/components/home-personal/About';
 import Services from '@/components/home-personal/Services';
 import Skills from '@/components/home-personal/Skills';
 import Portfolio from '@/components/home-personal/Portfolio';
+import InnerCursor from '@/components/common/innerCursor';
 
 export const metadata = {
   title: 'webfolio',
@@ -38,6 +39,7 @@ export default function Home() {
     <body className="home-personal">
       <LoadingScreen />
       <Cursor />
+      <InnerCursor/>
       <ProgressScroll />
       <Lines />
       <Navbar />

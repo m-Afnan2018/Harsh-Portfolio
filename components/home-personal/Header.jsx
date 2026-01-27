@@ -35,9 +35,9 @@ function Header() {
                 Hello! there
               </h6>
               <h1 className="fw-700 mb-10">
-                I&apos;m Oliver <span className="main-color">Jackson</span>
+                I&apos;m Harsh <span className="main-color">Sharma</span>
               </h1>
-              <h3>I am a product designer</h3>
+              <h3>I am a graphics designer</h3>
               <div className="row">
                 <div className="col-lg-9">
                   <div className="text mt-30">
