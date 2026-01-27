@@ -36,10 +36,7 @@ function About() {
                   with 6+ months of professional in-house experience and 1 year of freelance work, skilled in designing impactful social media creatives, marketing visuals, and website graphics.
                 </h4>
                 <p>
-                  I enjoy turning complex problems into simple, beautiful and
-                  intuitive designs. My aim is to bring across your message and
-                  identity in the most creative way. I created web design for
-                  many famous brand companies.
+                  I have a strong ability to simplify complex concepts into clean, intuitive visuals that communicate brand identity effectively across digital platforms.
                 </p>
 
                 <div className="numbers mt-50">
