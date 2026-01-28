@@ -73,7 +73,7 @@ function Portfolio() {
         <div className="cards">
           <div className="card-item sub-bg">
             <div className="row">
-              <div className="col-lg-5">
+              {/* <div className="col-lg-5">
                 <div className="cont">
                   <div>
                     <div className="mb-15">
@@ -98,12 +98,13 @@ function Portfolio() {
                     </a>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-7">
+              </div> */}
+                  <img src="/assets/imgs/works/1/1.jpg" alt="" />
+              {/* <div className="col-lg-7">
                 <div className="img">
                   <img src="/assets/imgs/works/1/1.jpg" alt="" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="card-item sub-bg">
