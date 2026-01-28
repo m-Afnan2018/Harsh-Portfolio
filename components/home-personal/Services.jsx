@@ -31,15 +31,14 @@ function Services() {
               <div className="icon-img-60 opacity-5 mb-40">
                 <img src="/assets/imgs/serv-icons/3.png" alt="" />
               </div>
-              <h5>UI/UX Design</h5>
+              <h5>Graphic Design</h5>
               <div className="text mt-40">
                 <div className="mb-10">
                   <span className="tag">UI/UX</span>
                   <span className="tag">Development</span>
                 </div>
                 <p>
-                  We always ensure that it combines a clean and beautiful visual
-                  design.
+                  I create visually compelling designs that balance creativity and clarity, ensuring strong brand communication across digital platforms.
                 </p>
               </div>
               <a href="/page-services-details" className="mt-40">
@@ -52,15 +51,14 @@ function Services() {
               <div className="icon-img-60 opacity-5 mb-40">
                 <img src="/assets/imgs/serv-icons/4.png" alt="" />
               </div>
-              <h5>Brand Strategy</h5>
+              <h5>Marketing & Advertising Creatives</h5>
               <div className="text mt-40">
                 <div className="mb-10">
                   <span className="tag">UI/UX</span>
                   <span className="tag">Development</span>
                 </div>
                 <p>
-                  We always ensure that it combines a clean and beautiful visual
-                  design.
+                  I design high-impact marketing visuals that capture attention, communicate value, and support campaign performance effectively.
                 </p>
               </div>
               <a href="/page-services-details" className="mt-40">
@@ -73,15 +71,14 @@ function Services() {
               <div className="icon-img-60 opacity-5 mb-40">
                 <img src="/assets/imgs/serv-icons/5.png" alt="" />
               </div>
-              <h5>SEO / Marketing</h5>
+              <h5>Product Design</h5>
               <div className="text mt-40">
                 <div className="mb-10">
                   <span className="tag">UI/UX</span>
                   <span className="tag">Development</span>
                 </div>
                 <p>
-                  We always ensure that it combines a clean and beautiful visual
-                  design.
+                  I design intuitive, user-focused product experiences that combine functionality, aesthetics, and seamless usability.
                 </p>
               </div>
               <a href="/page-services-details" className="mt-40">
