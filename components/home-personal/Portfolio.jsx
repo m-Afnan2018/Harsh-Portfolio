@@ -73,41 +73,20 @@ function Portfolio() {
         <div className="cards">
           <div className="card-item sub-bg">
             <div className="row">
-              {/* <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
-                    </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div> */}
-                  <img src="/assets/imgs/works/1/1.jpg" alt="" />
-              {/* <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/1.jpg" alt="" />
-                </div>
-              </div> */}
+              <img src="/assets/imgs/works/0/1.png" alt="" />
             </div>
           </div>
           <div className="card-item sub-bg">
+            <div className="row">
+              <img src="/assets/imgs/works/0/2.png" alt="" />
+            </div>
+          </div>
+          <div className="card-item sub-bg">
+            <div className="row">
+              <img src="/assets/imgs/works/0/3.png" alt="" />
+            </div>
+          </div>
+          {/* <div className="card-item sub-bg">
             <div className="row">
               <div className="col-lg-5">
                 <div className="cont">
@@ -246,7 +225,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="sec-bottom mt-100">
