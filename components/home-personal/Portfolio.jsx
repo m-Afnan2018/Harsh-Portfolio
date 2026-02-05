@@ -71,12 +71,21 @@ function Portfolio() {
           </div>
         </div>
         <div className="cards">
-          <div className="card-item sub-bg">
+
+          {Array.from({ length: 30 }, (_, i) => i + 3).map((index) => (
+            <div className="card-item sub-bg" key={index}>
+              <div className="row">
+                <img src={`/assets/imgs/portfolio/${index}.jpg`} alt="" />
+              </div>
+            </div>
+          ))}
+
+          {/* <div className="card-item sub-bg">
             <div className="row">
               <img src="/assets/imgs/works/0/1.png" alt="" />
             </div>
-          </div>
-          <div className="card-item sub-bg">
+          </div> */}
+          {/* <div className="card-item sub-bg">
             <div className="row">
               <img src="/assets/imgs/works/0/2.png" alt="" />
             </div>
@@ -85,7 +94,7 @@ function Portfolio() {
             <div className="row">
               <img src="/assets/imgs/works/0/3.png" alt="" />
             </div>
-          </div>
+          </div> */}
           {/* <div className="card-item sub-bg">
             <div className="row">
               <div className="col-lg-5">
