@@ -28,18 +28,18 @@ function Blog() {
         <div className="row">
           <div className="col-lg-4">
             <div className="item md-mb50">
-              <div className="info sub-title p-color d-flex align-items-center mb-20">
+              {/* <div className="info sub-title p-color d-flex align-items-center mb-20">
                 <div>
                   <a href="/blog-grid-sidebar">By : Admin</a>
                 </div>
                 <div className="ml-30">
                   <a href="/blog-grid-sidebar">August 14, 2023</a>
                 </div>
-              </div>
+              </div> */}
               <div className="img fit-img">
-                <img src="/assets/imgs/blog/1.jpg" alt="" />
+                <img src="/assets/imgs/blog/B1.jpeg" alt="" />
               </div>
-              <div className="cont pt-30">
+              {/* <div className="cont pt-30">
                 <h5>Design Inspiration: Where to Find Creative Ideas</h5>
                 <a
                   href="/blog-details"
@@ -52,23 +52,23 @@ function Blog() {
                   </span>
                   <span className="text">Read more</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-4">
             <div className="item md-mb50">
-              <div className="info sub-title p-color d-flex align-items-center mb-20">
+              {/* <div className="info sub-title p-color d-flex align-items-center mb-20">
                 <div>
                   <a href="/blog-grid-sidebar">By : Admin</a>
                 </div>
                 <div className="ml-30">
                   <a href="/blog-grid-sidebar">August 14, 2023</a>
                 </div>
-              </div>
+              </div> */}
               <div className="img fit-img">
-                <img src="/assets/imgs/blog/2.jpg" alt="" />
+                <img src="/assets/imgs/blog/B2.jpeg" alt="" />
               </div>
-              <div className="cont pt-30">
+              {/* <div className="cont pt-30">
                 <h5>Typography: Choosing Fonts for Maximum Impact</h5>
                 <a
                   href="/blog-details"
@@ -81,23 +81,23 @@ function Blog() {
                   </span>
                   <span className="text">Read more</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-4">
             <div className="item">
-              <div className="info sub-title p-color d-flex align-items-center mb-20">
+              {/* <div className="info sub-title p-color d-flex align-items-center mb-20">
                 <div>
                   <a href="/blog-grid-sidebar">By : Admin</a>
                 </div>
                 <div className="ml-30">
                   <a href="/blog-grid-sidebar">August 14, 2023</a>
                 </div>
-              </div>
+              </div> */}
               <div className="img fit-img">
-                <img src="/assets/imgs/blog/3.jpg" alt="" />
+                <img src="/assets/imgs/blog/B3.jpeg" alt="" />
               </div>
-              <div className="cont pt-30">
+              {/* <div className="cont pt-30">
                 <h5>Design Inspiration: Where to Find Creative Ideas</h5>
                 <a
                   href="/blog-details"
@@ -110,7 +110,7 @@ function Blog() {
                   </span>
                   <span className="text">Read more</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
