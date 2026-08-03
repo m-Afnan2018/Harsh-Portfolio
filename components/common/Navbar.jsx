@@ -61,7 +61,7 @@ function Navbar() {
           </span>
         </button>
 
-        <div
+        {/* <div
           className="collapse navbar-collapse justify-content-center"
           id="navbarSupportedContent"
         >
@@ -199,7 +199,7 @@ function Navbar() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="contact-button">
           <a
