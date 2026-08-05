@@ -15,13 +15,13 @@ function Services() {
               </h3>
             </div>
             <div className="ml-auto vi-more">
-              <a
+              {/* <a
                 href="/page-services"
                 className="butn butn-sm butn-bord radius-30"
               >
                 <span>View All</span>
               </a>
-              <span className="icon ti-arrow-top-right"></span>
+              <span className="icon ti-arrow-top-right"></span> */}
             </div>
           </div>
         </div>
@@ -41,9 +41,9 @@ function Services() {
                   I create visually compelling designs that balance creativity and clarity, ensuring strong brand communication across digital platforms.
                 </p>
               </div>
-              <a href="/page-services-details" className="mt-40">
+              {/* <a href="/page-services-details" className="mt-40">
                 <span className="ti-arrow-top-right"></span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-4">
@@ -61,9 +61,9 @@ function Services() {
                   I design high-impact marketing visuals that capture attention, communicate value, and support campaign performance effectively.
                 </p>
               </div>
-              <a href="/page-services-details" className="mt-40">
+              {/* <a href="/page-services-details" className="mt-40">
                 <span className="ti-arrow-top-right"></span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-4">
@@ -81,9 +81,9 @@ function Services() {
                   I design intuitive, user-focused product experiences that combine functionality, aesthetics, and seamless usability.
                 </p>
               </div>
-              <a href="/page-services-details" className="mt-40">
+              {/* <a href="/page-services-details" className="mt-40">
                 <span className="ti-arrow-top-right"></span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

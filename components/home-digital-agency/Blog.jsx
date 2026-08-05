@@ -15,13 +15,13 @@ function Blog() {
               </h3>
             </div>
             <div className="ml-auto vi-more">
-              <a
+              {/* <a
                 href="/blog-grid-sidebar"
                 className="butn butn-sm butn-bord radius-30"
               >
                 <span>View All</span>
               </a>
-              <span className="icon ti-arrow-top-right"></span>
+              <span className="icon ti-arrow-top-right"></span> */}
             </div>
           </div>
         </div>

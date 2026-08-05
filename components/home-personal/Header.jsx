@@ -37,7 +37,7 @@ function Header() {
               <h1 className="fw-700 mb-10">
                 I&apos;m Harsh <span className="main-color">Sharma</span>
               </h1>
-              <h3>I am a graphics designer</h3>
+              <h3>I am a Creative Designer</h3>
               <div className="row">
                 <div className="col-lg-9">
                   <div className="text mt-30">
@@ -48,7 +48,13 @@ function Header() {
                   </div>
                   <div className="d-flex align-items-center mt-60">
                     <a
-                      href="/page-contact"
+                      href="/assets/imgs/Harsh_Sharma.pdf"
+                      className="butn butn-md butn-bord radius-30"
+                    >
+                      <span className="text">View Resume</span>
+                    </a>
+                    <a
+                      href="https://wa.me/918851437549?text=Hi! 👋 I came across your portfolio and I'm interested in working with you. Let's connect!"
                       className="butn butn-md butn-bord radius-30"
                     >
                       <span className="text">Contact Me</span>

@@ -30,16 +30,13 @@ function Footer() {
                             <h6 className="sub-title mb-30">Useful Links</h6>
                             <ul className="rest fz-14 opacity-7">
                                 <li className="mb-15">
-                                    <a href="/page-about">About</a>
+                                    <a target="_blank" href="https://www.instagram.com/harshpandattt">Instagram</a>
                                 </li>
                                 <li className="mb-15">
-                                    <a href="/page-services">Services</a>
+                                    <a target="_blank" href="linkedin.com/in/harsh-sharma-601413341/">LinkedIn</a>
                                 </li>
                                 <li className="mb-15">
-                                    <a href="/blog-grid-sidebar">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="/page-contact">Contact</a>
+                                    <a target="_blank" href="https://www.behance.net/harshsharma400">Behance</a>
                                 </li>
                             </ul>
                         </div>
