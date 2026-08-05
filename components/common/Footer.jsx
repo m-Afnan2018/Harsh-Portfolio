@@ -33,7 +33,7 @@ function Footer() {
                                     <a target="_blank" href="https://www.instagram.com/harshpandattt">Instagram</a>
                                 </li>
                                 <li className="mb-15">
-                                    <a target="_blank" href="linkedin.com/in/harsh-sharma-601413341/">LinkedIn</a>
+                                    <a target="_blank" href="https://linkedin.com/in/harsh-sharma-601413341/">LinkedIn</a>
                                 </li>
                                 <li className="mb-15">
                                     <a target="_blank" href="https://www.behance.net/harshsharma400">Behance</a>
