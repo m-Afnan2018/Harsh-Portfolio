@@ -46,8 +46,9 @@ function Header() {
                       employ a comprehensive and holistic approach.
                     </p>
                   </div>
-                  <div className="d-flex align-items-center mt-60">
+                  <div className="d-flex align-items-center mt-60 gap-4">
                     <a
+                      target="_blank"
                       href="/assets/imgs/Harsh_Sharma.pdf"
                       className="butn butn-md butn-bord radius-30"
                     >

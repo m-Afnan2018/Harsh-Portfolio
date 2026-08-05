@@ -203,7 +203,7 @@ function Navbar() {
 
         <div className="contact-button">
           <a
-            href="/page-contact"
+            href="https://wa.me/918851437549?text=Hi! 👋 I came across your portfolio and I'm interested in working with you. Let's connect!"
             className="butn butn-sm butn-bg main-colorbg radius-5"
           >
             <span className="text">Let&apos;s contact</span>
